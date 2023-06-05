@@ -1,0 +1,137 @@
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+
+}
+
+footer,
+header{
+    background-color: #75B8BF;
+}
+
+#about img{
+    border: 4px inset #3e6e74;
+}
+
+.carousel-item{
+    max-height: 45vh;
+}
+
+textarea{
+    resize: none;
+}
+
+.nav-link:hover{
+    color: rgb(131, 95, 3);
+}
+
+#services .nav-link{
+    padding: 10px 10px
+}
+
+#fauna .card .card-header{
+    background-color: lightblue;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+#fauna .card img,
+#fauna .card{
+    border: 3px solid darkblue;
+    border-radius: 14px;
+}
+
+#flora .card .card-header{
+    background-color: rgb(179, 241, 179);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+#flora .card img,
+#flora .card{
+    border: 3px solid green;
+    border-radius: 14px;
+}
+
+
+#monitoring .card .card-header{
+    background-color: lightyellow;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+#monitoring .card img,
+#monitoring .card{
+    border: 3px solid goldenrod;
+    border-radius: 14px;
+}
+
+
+#licenses .card .card-header{
+    background-color: rgb(250, 196, 234);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+#licenses .card img,
+#licenses .card{
+    border: 3px solid darkred;
+    border-radius: 14px;
+}
+
+#services .card:hover {
+    background-color: lightgoldenrodyellow;
+}
+
+#services .card:hover .card-body{
+    color: rgb(242, 221, 168);
+}
+
+
+
+#contact,
+#about{
+    background-color: rgba(117, 184, 191, 0.2);
+}
+
+#services{
+    background-color: rgba(117, 184, 191, 0.4);
+}
+
+#services .nav-link.active{
+    background-color: #3e6e74;
+    color: rgb(242, 221, 168);
+}
+
+h2{
+    font-weight: bold;
+}
+
+#contact .nav-link:hover i{
+    color: darkgoldenrod;
+}
+
+@media (max-width: 992px){
+    
+    #contact h3,
+    #about h2{
+        margin-top: 25px;
+    }
+}
+
+
+@media (max-width: 540px){
+    header span{
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (min-width:992px) and (max-width: 1140px){
+
+    #menu-nav>ul {
+        display: block;
+    }
+
+}

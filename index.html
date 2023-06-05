@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinguim Consultoria</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./main.css">
+
+</head>
+<body>
+    
+        <header class="navbar navbar-expand-lg pt-3 p-4">
+            <h1 class="fw-bold navbar-brand fs-1">
+                
+                <span class="pb-3"><i class="bi bi-tencent-qq "></i>Pinguim </span> <span>Consultoria Ambiental</span>
+            </h1>
+
+            <button class="navbar-toggler mx-auto" data-bs-toggle="collapse" data-bs-target="#menu-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <nav class=" collapse navbar-collapse justify-content-end" id="menu-nav">
+                <ul class="nav navbar-nav nav-pills text-center">
+                    <li class="nav-item fs-5 fw-bold">
+                        <a class="nav-link" href="#about">
+                            <i class="bi bi-shop"></i>
+                            Sobre a empresa
+                        </a>
+                    </li>
+                    <li class="nav-item fs-5 fw-bold">
+                        <a class="nav-link" href="#services">
+                            <i class="bi bi-list"></i>
+                            Portfólio
+                        </a>
+                    </li>
+                    <li class="nav-item fs-5 fw-bold">
+                        <a class="nav-link" href="#contact">
+                            <i class="bi bi-send"></i>
+                            Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="about" class="pt-4 pb-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-5">
+                        
+                        <div class="carousel slide" data-bs-ride="carousel" id="photos-company">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="1800">
+                                    <img class= "w-100 " src="https://free-images.com/lg/166b/biologists_in_forest.jpg" alt="Colaboradores identificando espécie de planta na floresta">
+                                </div>
+                
+                                <div class="carousel-item" data-bs-interval="1800">
+                                    <img class="w-100   " src="https://free-images.com/lg/9fa2/wildlife_biologist_conducts_gopher.jpg" alt="Colaborador fazendo anotações em campo">
+                                </div>
+                
+                                <div class="carousel-item" data-bs-interval="1800">
+                                    <img class="w-100 "  src="https://free-images.com/lg/d1b9/biologists_measuring_fish_during.jpg" alt="Equipe de colaboradores medindo peixes a beira de um lago">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#photos-company" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                
+                            <button class="carousel-control-next" type="button" data-bs-target="#photos-company" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+
+                    </div>
+                    <div class="col-md-12 col-lg-7" >
+                        <h2 class="text-center pb-3">Quem nós somos</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid est fugit voluptates et enim ullam fugiat tempore nostrum eaque, minima recusandae nulla, aspernatur similique reiciendis ab animi cum sequi ex.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sint nam natus dolorem temporibus distinctio, dolores tempora quam ducimus veritatis corrupti? Veritatis delectus fugiat aspernatur id odio rem in earum?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="pt-4">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center pb-3 mt-3">Serviços oferecidos</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-4 col-lg-2">
+                        <nav class="nav nav-pills flex-column  pb-5 pt-5 me-5 sticky-sm-top">
+
+                            <button class="nav-link fw-bold text-start active" data-bs-toggle="tab" data-bs-target="#fauna" type="button">Serviços de fauna</button>
+                            <button class="nav-link fw-bold text-start" data-bs-toggle="tab" data-bs-target="#flora" type="button">Serviços de flora</button>
+                            <button class="nav-link fw-bold text-start" data-bs-toggle="tab" data-bs-target="#monitoring" type="button">Monitoramento Ambiental</button>
+                            <button class="nav-link fw-bold text-start" data-bs-toggle="tab" data-bs-target="#licenses" type="button">Licenças</button>
+
+                        </nav>
+                    </aside>
+
+                    <div class="col-md-8 col-lg-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="fauna">
+
+                                <div class="row">
+
+                                    <div class="col-lg-4">
+                                        <div class="card mb-4">
+                                            <div class="card-header text-center">Levantamento e Monitoramento de Fauna</div>
+                                            <div class="card-body">
+                                                <img class="w-100" src="https://free-images.com/lg/6167/biologist_holding_gray_bat.jpg" alt="Morcego sendo contido para registro em foto"/>
+                                                <button type="button" class="btn btn-success w-100 mt-2 card-button">Solicitar orçamento</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="col-lg-4">
+                                        <div class="card mb-4">
+                                            <div class="card-header text-center">Plano de Proteção à Fauna (PPAF)</div>
+                                            <div class="card-body">
+                                                <img class="w-100" src="https://free-images.com/lg/2ca4/geese_flying_sky_migration.jpg" alt="Fotografia de gansos migratórios voando"/>
+                                                <button type="button" class="btn btn-success w-100 mt-2 card-button">Solicitar orçamento</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-lg-4">
+                                        <div class="card mb-4">
+                                            <div class="card-header text-center">Resgate de Fauna</div>
+                                            <div class="card-body">
+                                                <img class="w-100" src="https://free-images.com/lg/305c/forest_fire_spirit_lake.jpg" alt="Fotografia de um incêndio florestal"/>
+                                                <button type="button" class="btn btn-success w-100 mt-2 card-button">Solicitar orçamento</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                
+                                    
+                                </div>
+
+                            </div>
+
+                            <div class="tab-pane" id="flora">
+
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="card mb-4">
+                                            <div class="card-header text-center">Diagnóstico de vegetação</div>
+                                            <div class="card-body">
+                                                <img class="w-100" src="https://free-images.com/lg/39fd/forest_nature.jpg" alt="Fotografia de uma serra florestada"/>
+                                                <button type="button" class="btn btn-success w-100 mt-2 card-button">Solicitar orçamento</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <div class="card mb-4">
+                                            <div class="card-header text-center">Manejo Florestal</div>
+                                            <div class="card-body">
+                                                <img class="w-100" src="https://free-images.com/lg/1634/forest_summer_time.jpg" alt="Fotografia de uma floresta"/>
+                                                <button type="button" class="btn btn-success w-100 mt-2 card-button">Solicitar orçamento</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <div class="card mb-4">
+                                            <div class="card-header text-center">Recuperação de áreas degradadas</div>
+                                            <div class="card-body">
+                                                <img class="w-100" src="https://free-images.com/lg/bbb6/beech_seedling_1.jpg" alt="Plântula crescendo na serrapilheira"/>
+                                                <button type="button" class="btn btn-success w-100 mt-2 card-button">Solicitar orçamento</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-lg-4">
+                                        <div class="card mb-4">
+                                            <div class="card-header text-center">Avaliações rurais</div>
+                                            <div class="card-body">
+                                                <img class="w-100" src="https://free-images.com/lg/6857/orchard_farm_tree_fruit.jpg" alt="Árvores frutíferas plantadas em uma propriedade rural"/>
+                                                <button type="button" class="btn btn-success w-100 mt-2 card-button">Solicitar orçamento</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <div class="card mb-4">
+                                            <div class="card-header text-center">CAR - Cadastro Ambiental Rural</div>
+                                            <div class="card-body">
+                                                <img class="w-100" src="https://free-images.com/lg/50d5/ruminant_cattle_livestock_horns.jpg" alt="Fotografia de bovinos pastando"/>
+                                                <button type="button" class="btn btn-success w-100 mt-2 card-button">Solicitar orçamento</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <div class="card mb-4">
+                                            <div class="card-header text-center">Implantação e manutenção de reflorestamentos</div>
+                                            <div class="card-body">
+                                                <img class="w-100" src="https://free-images.com/lg/6be2/birch_wood_forest_inje.jpg" alt="Fotografia de jovens árvores."/>
+                                                <button type="button" class="btn btn-success w-100 mt-2 card-button">Solicitar orçamento</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+
+                            <div class="tab-pane" id="monitoring">
+
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="card mb-4">
+                                            <div class="card-header text-center">Toxicologia ambiental</div>
+                                            <div class="card-body">
+                                                <img class="w-100" src="https://free-images.com/lg/1174/laboratory_chemistry_subjects_1009190.jpg" alt="Fotografia de vidrarias de laboratório sobre uma bancada"/>
+                                                <button type="button" class="btn btn-success w-100 mt-2 card-button">Solicitar orçamento</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <div class="card mb-4">
+                                            <div class="card-header text-center">Análise de contaminação da água</div>
+                                            <div class="card-body">
+                                                <img class="w-100" src="https://free-images.com/lg/bcf0/florida_bay_water_sampling.jpg" alt="Pesquisadora em uma embarcação mensurando parâmetros da água"/>
+                                                <button type="button" class="btn btn-success w-100 mt-2 card-button">Solicitar orçamento</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <div class="card mb-4">
+                                            <div class="card-header text-center">Análise de contaminação do ar</div>
+                                            <div class="card-body">
+                                                <img class="w-100" src="https://free-images.com/lg/cde4/smoke_building_chimney_air.jpg" alt="Chaminé liberando fumaça"/>
+                                                <button type="button" class="btn btn-success w-100 mt-2 card-button">Solicitar orçamento</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-lg-4">
+                                        <div class="card mb-4">
+                                            <div class="card-header text-center">Planos de Manejo Florestal</div>
+                                            <div class="card-body">
+                                                <img class="w-100" src="https://free-images.com/lg/ac9b/tree_down_tree_forest.jpg" alt="Fotografia de uma extração de madeira"/>
+                                                <button type="button" class="btn btn-success w-100 mt-2 card-button">Solicitar orçamento</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <div class="card mb-4">
+                                            <div class="card-header text-center">Relatório RAPP</div>
+                                            <div class="card-body">
+                                                <img class="w-100" src="https://free-images.com/lg/9714/paper_stack_books_stack.jpg" alt="Fotografia de vários documentos empilhados"/>
+                                                <button type="button" class="btn btn-success w-100 mt-2 card-button">Solicitar orçamento</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+
+                            <div class="tab-pane" id="licenses">
+
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="card mb-4">
+                                            <div class="card-header text-center">EIA/RIMA</div>
+                                            <div class="card-body">
+                                                <img class="w-100" src="https://free-images.com/lg/402f/mining_iron_ore_mine.jpg" alt="Fotografia de uma mineradora"/>
+                                                <button type="button" class="btn btn-success w-100 mt-2 card-button">Solicitar orçamento</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <div class="card mb-4">
+                                            <div class="card-header text-center">Licença Prévia, de Instalação e de Operação</div>
+                                            <div class="card-body">
+                                                <img class="w-100" src="https://free-images.com/lg/de04/industry_plant_factory_958753.jpg" alt="Fotogradia de uma indústria"/>
+                                                <button type="button" class="btn btn-success w-100 mt-2 card-button">Solicitar orçamento</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-lg-4">
+                                        <div class="card mb-4">
+                                            <div class="card-header text-center">Outorga</div>
+                                            <div class="card-body">
+                                                <img class="w-100" src="https://free-images.com/lg/99bc/water_sprinklers_irrigation_field.jpg" alt="Fotografia de um sistema de irrigação em propriedade rural"/>
+                                                <button type="button" class="btn btn-success w-100 mt-2 card-button">Solicitar orçamento</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+
+                            
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container pb-5">
+                <div class="row">
+                    <h2 class="text-center pt-5">
+                        Fale conosco
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <h3>Envie-nos uma mensagem!</h3>
+                        </div>
+                        <div class="row">
+                            
+                        <form id="contact-form">
+                            <div class="input-div mt-3">
+                                <label for="nome" class="form-label">Seu nome: </label>
+                                <input type="text" class="form-control" id="nome" name="nome" required>
+                            </div>
+
+                            <div class="input-div mt-3">
+                                <label for="email" class="form-label">Seu e-mail</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+
+                            <div class="input-div mt-3">
+                                <label for="assunto" class="form-label">Assunto: </label>
+                                <input type="text" class="form-control" id="assunto" name="assunto" required>
+                            </div>
+
+                            <div class="input-div mt-3">
+                                <label for="tel" class="form-label">Seu telefone (opcional)</label>
+                                <input type="tel" class="form-control" id="tel" name="tel">
+                            </div>
+
+                            <div class="input-div mt-3">
+                                <label for="" class="form-label">Sua mensagem</label>
+                                <textarea name="mensagem" id="mensagem" rows="4" class="form-control"></textarea>
+                            </div>
+
+                            <button type="submit"  class="btn btn-success p-2 mt-3">Enviar mensagem</button>
+                        </form>
+
+                        <div class="modal" id="modal-confirm" data-bs-backdrop = 'static'>
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4>Confirme seus dados</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p><strong>Seu nome: </strong><span id="confirm-name"></span></p>
+                                        <p><strong>Seu e-mail: </strong><span id="confirm-email"></span></p>
+                                        <p><strong>Seu telefone: </strong><span id="confirm-tel"></span></p>
+                                        <p><strong>O motivo do contato: </strong><span id="confirm-subject"></span></span></p>
+                                        <p><strong>Sua mensagem: </strong><span id="confirm-message"></span></p>
+
+                                    </div>
+
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Corrigir dados</button>
+                                        <button type="button" id="submit-form" class="btn btn-success" data-bs-dismiss="modal">Enviar mensagem</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modal" id="modal-message">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <p>Mensagem enviada com sucesso!</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-info" data-bs-dismiss="modal">Fechar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-1"></div>
+
+                    <div class="col-md-5">
+                        <div class="row text-center">
+                            <h3>Visite nossas redes sociais</h3>
+                        </div>
+                        <div class="row">
+                            <ul class="nav fs-2 justify-content-center pt-2">
+                                <li>
+                                    <a class="nav-link text-dark" href="#">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                    </li>
+                                <li class="ps-3">
+                                    <a class="nav-link text-dark" href="#">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                    </li>
+                                <li class="ps-3">
+                                    <a class="nav-link text-dark" href="#">
+                                        <i class="bi bi-youtube"></i>
+                                    </a>
+                                    </li>
+                            
+                            </ul>
+                        </div>
+
+                        <div class="row">
+                            <h3 class="text-center mt-5">Venha nos encontrar</h3>
+                        </div>
+
+                        <div class="row text-center fs-5">
+                            <p>
+                                Rua De Exemplo, número 123, Bairro Genérico, Cidade - XX
+                            </p>
+                        </div>
+
+                        <div class="row text-center pt-3">
+                            <h3>Ou entre em contato pelo telefone:</h3>
+                        </div>
+                        <div class="row text-center fs-4">
+                            <p><i class="bi bi-whatsapp pe-3"></i>(11) 12345-6789</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <footer class="text-center py-5 fw-bold ">
+
+            <p>
+                Pinguim Consultoria Ambiental&copy; 2023. Todos os direitos reservados.
+            </p>
+            
+        </footer>
+
+
+    <script src="./lib/jquery-3.7.0.min.js"></script>
+    <script src="./lib/jquery.mask.min.js"></script>
+    <script src="./lib/jquery.validate.min.js"></script>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+
+    <script src="./main.js"></script>
+
+</body>
+</html>
