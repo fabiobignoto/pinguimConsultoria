@@ -14,10 +14,6 @@ header{
     border: 4px inset #3e6e74;
 }
 
-.carousel-item{
-    max-height: 45vh;
-}
-
 textarea{
     resize: none;
 }
